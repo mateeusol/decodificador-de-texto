@@ -1,5 +1,5 @@
 <h1 align="center"> Decodificador de texto</h1>
-<p>Permite que os usuários codifiquem e decodifiquem mensagens de texto, proporcionando uma interface intuitiva e interativa.</p>
+<p></p>
 
 
 # 🛠️ Abrir e rodar o projeto
