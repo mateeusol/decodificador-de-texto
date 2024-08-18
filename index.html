@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="shortcut icon" href="./assets/gato.png" type="image/x-icon">
+    <title>Decodificador de texto</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="./assets/gato2.png" alt="">
+    </header>
+    
+    <main>
+        <section class="text__and__buttons">
+            <div>
+                <textarea id="text__area" cols="41" rows="4" placeholder="Digite aqui..."></textarea>
+            </div>
+            <div class="information__and__buttons">
+                <div class="information">
+                    <img src="./assets/exclamation-circle.png" alt="Exclamation circle icon">
+                    <h6>Apenas letras minúsculas e sem caracteres especiais.</h6>
+                </div>
+    
+                <div class="buttons">
+                    <button onclick="encrypt()" class="buttons__encrypt">Criptografar</button>
+                    <button onclick="decrypt()" class="buttons__decrypt">Descriptografar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="box__result">
+            <div class="message">
+                <div id="message__content">
+                    <img src="./assets/gato.png" alt="Gato">
+                    <div class="message__text">
+                        <h1>Nenhuma mensagem encontrada</h1>
+                        <h3>Digite um texto que você deseja criptografar ou descriptografar.</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>Developed by</p>
+        <img src="./assets/icon-github.svg" class="footer__image" alt="GitHub icon">
+        <a class="footer__github" href="https://github.com/mateeusol">
+            <b class="footer__github__nick">Mateeus</b>
+        </a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
